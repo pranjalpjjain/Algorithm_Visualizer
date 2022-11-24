@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.907);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main2 {
+    width: 400px;
+    height: 600px;
+    background-color: goldenrod;
+}
+
+.main2 h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    /* letter-spacing: 1px; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.907);
+    ;
+}
+
+.main3 h1 {
+    padding-top: 50px;
+}
+
+.main3 {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-direction: column;
+}
+
+.main3 button {
+    width: 200px;
+    height: 80px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.907);
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
